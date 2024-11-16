@@ -10,7 +10,7 @@ metadata:
 spec:
   ingressClassName: alb
   rules:
-    - host: backend.amanpathakdevops.study
+    - host: challange.learnwithkomal.biz
       http:
         paths:
           - path: /api
@@ -19,7 +19,7 @@ spec:
               service:
                 name: api
                 port:   
-                  number: 3500
+                  number: 8080
           - path: /
             pathType: Prefix
             backend:
